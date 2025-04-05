@@ -1,6 +1,9 @@
 [package]
-name = "crypto-news-api"
+name = "crypto_news_api"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+axum = "0.7"
+hyper = { version = "1", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
