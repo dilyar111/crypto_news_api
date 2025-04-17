@@ -5,6 +5,7 @@ import { SearchBar } from "./components/SearchBar";
 import { NewsCard } from "./components/NewsCard";
 import type { NewsArticle } from "./types";
 
+
 function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -40,20 +41,32 @@ function App() {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
               <Coins className="w-8 h-8 text-blue-500" />
-              <h1 className="text-xl font-bold">Crypto News Aggregator</h1>
+              <h1 className="text-xl font-bold">CryptoPlanet</h1>
+              <h1>   </h1>
+              <SearchBar onSearch={handleSearch} />
+
+
+              
             </div>
             <ThemeToggle />
           </div>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"   style={{
+    backgroundImage: "url('https://th.bing.com/th/id/R.1dacea1f83744b2ccc95369ed79c5a24?rik=CEQ4qQu4mHfBcA&pid=ImgRaw&r=0')", 
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    minHeight: "100vh",
+  }}>
+        <img src="" width={100} />
         <div className="flex flex-col items-center space-y-6">
-          <SearchBar onSearch={handleSearch} />
+          
 
           {isLoading && (
             <div className="w-full text-center py-8">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-pink-500 mx-auto"></div>
             </div>
           )}
 
