@@ -54,11 +54,11 @@ function App() {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"   style={{
-    backgroundImage: "url('https://th.bing.com/th/id/R.1dacea1f83744b2ccc95369ed79c5a24?rik=CEQ4qQu4mHfBcA&pid=ImgRaw&r=0')", 
+    backgroundImage: "url('https://th.bing.com/th/id/R.1dacea1f83744b2ccc95369ed79c5a24?rik=CEQ4qQu4mHfBcA&pid=ImgRaw&r=0')", // Replace with your image path
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    minHeight: "100vh", 
+    minHeight: "100vh", // Ensures it covers the full viewport height
   }}>
         
         <div className="flex flex-col items-center space-y-6">
@@ -83,7 +83,7 @@ function App() {
           </div>
 
           {!isLoading && !error && articles.length === 0 && (
-            <div className="text-center text-blue-500  py-8">
+            <div className="text-center text-blue-500 dark:text-gray-400 py-8">
               Search for a cryptocurrency to see related news
             </div>
           )}
