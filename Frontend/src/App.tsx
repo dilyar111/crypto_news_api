@@ -58,9 +58,9 @@ function App() {
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    minHeight: "100vh",
+    minHeight: "100vh", 
   }}>
-        <img src="" width={100} />
+        
         <div className="flex flex-col items-center space-y-6">
           
 
@@ -83,7 +83,7 @@ function App() {
           </div>
 
           {!isLoading && !error && articles.length === 0 && (
-            <div className="text-center text-gray-500 dark:text-gray-400 py-8">
+            <div className="text-center text-blue-500  py-8">
               Search for a cryptocurrency to see related news
             </div>
           )}
