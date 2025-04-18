@@ -36,6 +36,17 @@ cargo run
 ```cpp
 [cargo run](http://127.0.0.1:8080)
 ```
+### 4. Server for Frontend:
+
+```cpp
+cd Frontend
+npm run dev
+```
+### 5. Server for Frontend will available at:
+
+```cpp
+http://localhost:5173
+```
 
 
 
