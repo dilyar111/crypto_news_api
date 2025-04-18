@@ -91,3 +91,8 @@ GET /news?search=btc
   - [CoinGecko](https://www.coingecko.com/) for cryptocurrency price data
 
 ---
+
+## 📄 License
+
+Licensed under the [MIT License](https://github.com/dilyar111/crypto_news_api/blob/main/LICENSE).
+
