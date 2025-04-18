@@ -65,8 +65,7 @@ http://localhost:5173
 - **Backend**: Rust (for high-performance data processing)  
 - **Styling**: CSS Modules  
 - **APIs**:
-  - [NewsDataHub](https://newsdatahub.com/) for news aggregation
-  - [CoinGecko](https://www.coingecko.com/) for cryptocurrency price data
+  - [Coinpaprika](https://coinpaprika.com/) for cryptocurrency price data
 
 ---
 
