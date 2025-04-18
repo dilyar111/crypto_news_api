@@ -37,41 +37,8 @@ cargo run
 [cargo run](http://127.0.0.1:8080)
 ```
 
-## 🌐 API Endpoints
-
-### ✅ Health Check
-
-```vbnet
-GET /health
-Response: "Server is running"
-```
-
-### 📈 Get All Cryptos
-
-```bash
-GET /news
-```
-
-### 🔍 Search Crypto by name or symbol
-
-```sql
-GET /news?search=btc
-```
 
 
-### 📦 Example Response:
-```json
-[
-  {
-    "title": "Bitcoin (btc-bitcoin)",
-    "source": "CoinPaprika",
-    "date": "coin",
-    "summary": "Price: $68942.21, Market Cap: $1349.22B",
-    "url": "https://coinpaprika.com/coin/btc-bitcoin/"
-  }
-]
-
-```
 
 ## 🖼️ Screenshots
 
