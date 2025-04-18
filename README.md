@@ -75,7 +75,9 @@ GET /news?search=btc
 
 ## 🖼️ Screenshots
 
+![2025-04-18 11 15 02](https://github.com/user-attachments/assets/cb0986df-f0f7-4f23-9716-501391b7b55c)
 
+![2025-04-18 11 15 08](https://github.com/user-attachments/assets/07b55561-32f5-4d94-ad73-8dbf3299d87a)
 
 
 
